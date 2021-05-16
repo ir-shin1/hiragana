@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52E7CE22650E19D00C6FD0F /* wordlist.csv in Resources */ = {isa = PBXBuildFile; fileRef = E52E7CE12650E19D00C6FD0F /* wordlist.csv */; };
 		E5E644AC2642823F00CA5A5F /* hiraganaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E644AB2642823F00CA5A5F /* hiraganaApp.swift */; };
 		E5E644AE2642823F00CA5A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E644AD2642823F00CA5A5F /* ContentView.swift */; };
 		E5E644B02642824100CA5A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E644AF2642824100CA5A5F /* Assets.xcassets */; };
 		E5E644B32642824100CA5A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E644B22642824100CA5A5F /* Preview Assets.xcassets */; };
-		E5E86E092646A38700332D81 /* wordlist.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5E86E082646A38700332D81 /* wordlist.csv */; };
 		E5E86E0B2646AF6800332D81 /* word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E86E0A2646AF6800332D81 /* word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E52E7CE12650E19D00C6FD0F /* wordlist.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.csv; sourceTree = "<group>"; };
 		E5E644A82642823F00CA5A5F /* hiragana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hiragana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E644AB2642823F00CA5A5F /* hiraganaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiraganaApp.swift; sourceTree = "<group>"; };
 		E5E644AD2642823F00CA5A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5E644AF2642824100CA5A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E644B22642824100CA5A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5E644B42642824100CA5A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5E86E082646A38700332D81 /* wordlist.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordlist.csv; path = ../../../../wordlist.csv; sourceTree = "<group>"; };
 		E5E86E0A2646AF6800332D81 /* word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E5E86E0A2646AF6800332D81 /* word.swift */,
-				E5E86E082646A38700332D81 /* wordlist.csv */,
+				E52E7CE12650E19D00C6FD0F /* wordlist.csv */,
 				E5E644AB2642823F00CA5A5F /* hiraganaApp.swift */,
 				E5E644AD2642823F00CA5A5F /* ContentView.swift */,
 				E5E644AF2642824100CA5A5F /* Assets.xcassets */,
@@ -134,7 +134,7 @@
 			files = (
 				E5E644B32642824100CA5A5F /* Preview Assets.xcassets in Resources */,
 				E5E644B02642824100CA5A5F /* Assets.xcassets in Resources */,
-				E5E86E092646A38700332D81 /* wordlist.csv in Resources */,
+				E52E7CE22650E19D00C6FD0F /* wordlist.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
